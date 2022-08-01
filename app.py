@@ -1,3 +1,5 @@
+# get all the avaialble roles in AWS account
+
 import boto3
 import re
 from pprint import pprint
@@ -6,7 +8,7 @@ client = boto3.client('ec2',region_name='us-east-1')
 VPCs=client.describe_vpcs()
 regions=client.describe_regions()
 iam= boto3.client('iam')
-roles=iam.list_roles().get('roles',[])
+roles=iam.list_roles().get('Roles',[])
 for role in roles:
     print(role['RoleName'])
     print(100*'-')

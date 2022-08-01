@@ -1,0 +1,22 @@
+  1  clear
+    2  ls
+    3  nano app.py
+    4  python3 app.py
+    5  pip3 boto3
+    6  apt update && apt install python3-pip
+    7  clear
+    8  pip3
+    9  pip3 install boto3
+   10  clear
+   11  python3 app.py
+   12  nano app.py
+   13  python3 app.py
+   14  nano app.py
+   15  python3 app.py
+   16  claer
+   17  clear
+   18  nano app.py
+   19  python3 app.py
+   20  nano app.py
+   21  python3 app.py
+   22  history
